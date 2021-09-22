@@ -1,0 +1,26 @@
+
+import java.util.Scanner;
+public class Scannerdemo
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);  
+        
+        String name = sc.nextLine();  // string input
+        
+        char gender = sc.next().charAt(0);   // character input 
+        
+        int age = sc.nextInt();    // int  input
+        long mobileNo = sc.nextLong();   // long input
+        double cgpa = sc.nextDouble();    // double input 
+        
+        System.out.println("Name :" +name);
+        System.out.println(" gender :" +gender);
+        System.out.println(" age :" +age);
+        System.out.println(" mobile no." +mobileNo);
+        System.out.println(" cgpa :" +cgpa);
+        
+        
+        
+    }
+}
